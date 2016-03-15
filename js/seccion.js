@@ -1,21 +1,38 @@
-$(document).ready(function(){
-	var estado = false;
- 
-	$('#main-section').on('click',function(){
-		$('.main-section').slideToggle();
- 
-		if (estado == true) {
-			$(this).text("Abrir");
-			$('body').css({
-				"overflow": "auto"
-			});
-			estado = false;
-		} else {
-			$(this).text("Cerrar");
-			$('body').css({
-				"overflow": "hidden"
-			});
-			estado = true;
-		}
-	});
+$(document).ready(function() {
+     $('#ball1').click(function() {
+          $('#mainnews1').animate({
+               height: 'toggle'
+               }, 2000
+          );
+     });
 });
+
+$(document).ready(function() {
+     $('#ball2').click(function() {
+          $('#mainnews2').animate({
+               height: 'toggle'
+               }, 2000
+          );
+     });
+});
+
+$(document).ready(function() {
+     $('#ball3').click(function() {
+          $('#mainnews3').animate({
+               height: 'toggle'
+               }, 2000
+          );
+     });
+});
+
+$(document).ready(function() {
+     $('#ball4').click(function() {
+          $('#mainnews4').animate({
+               height: 'toggle'
+               }, 2000
+          );
+     });
+});
+		
+		
+		

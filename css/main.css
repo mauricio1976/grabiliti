@@ -43,6 +43,8 @@ body {
     padding: 0;
     background-color: red;
     height: 5.5em;
+    position: relative;
+    z-index: 5;
     
 }
 
@@ -92,6 +94,18 @@ body {
 .mainnews .newstxt {
     display: block;
     padding: 1em 3em;
+}
+
+@media screen and (max-width: 500px){
+    .main-section {
+        display: block;
+    }
+    .mainnews {
+        display:block;
+        width: 450px;
+    }
+    
+    
 }
 
 
